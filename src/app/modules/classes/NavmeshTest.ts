@@ -32,16 +32,16 @@ export class NavmeshTest {
     box?.object3D.position.set(0, 1, -5);
     
     const map = document.createElement("a-gltf-model");
-    map.setAttribute("src","https://cdn.glitch.global/656c1d0b-a220-4a8c-8ecb-d01466ec202b/level_design_practice_1_complete.glb?v=1649347395645");
+    map.setAttribute("src","https://cdn.glitch.global/5dfc0d3a-8dfb-4899-829a-b4bf07441fcf/IntroLevel%20Glb.glb?v=1648778202991");
     map.setAttribute("id","map");
     
     const navmesh = document.createElement("a-gltf-model");
-    navmesh.setAttribute("src", "https://cdn.glitch.global/656c1d0b-a220-4a8c-8ecb-d01466ec202b/navmesh%20(15).gltf?v=1649347490062");
+    navmesh.setAttribute("src", "https://cdn.glitch.global/5dfc0d3a-8dfb-4899-829a-b4bf07441fcf/IntroLevel%20Navmesh.glb?v=1648778191448");
     navmesh.id = "navmesh";
     navmesh.setAttribute("visible", false);
     
     CS1.scene.entity.appendChild(map);
-    CS1.scene.entity.appendChild(navmesh);
+    // CS1.scene.entity.appendChild(navmesh);
 
     //add a-cursor as child of camera
     //const cursor = document.createElement("a-cursor");
